@@ -25,16 +25,15 @@
 // export default App;
 
 import React from "react";
-import Home from "./Home";
+import Navbar from "./Navbar";
+// import Frontpage from "./Frontpage";
 
 const App = () => {
-  const style1 = {
-    
-  }}
   return (
     <div>
       <h1>Welcome to my App</h1>
-      <Home/>
+      <Navbar/>
+      {/* <Frontpage/> */}
     </div>
   )
 }

@@ -1,8 +1,10 @@
 import React from 'react'
-const Landing = () => {
+
+const Frontpage = () => {
     const mystyle = {
         color: "red",
-        fontSize: "20px"
+        fontSize: "20px",
+        fontFamily: "sans-serif"
     }
     return (
         <>
@@ -12,4 +14,4 @@ const Landing = () => {
     )
 }
 
-export default Landing;
+export default Frontpage;

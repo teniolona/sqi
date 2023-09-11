@@ -26,14 +26,16 @@
 
 import React from "react";
 import Navbar from "./Navbar";
-// import Frontpage from "./Frontpage";
+import Frontpage from "./Frontpage";
+import Description from "./Description";
 
 const App = () => {
   return (
     <div>
-      <h1>Welcome to my App</h1>
+      {/* <h1>Welcome to my App</h1> */}
       <Navbar/>
-      {/* <Frontpage/> */}
+      <Frontpage/>
+      <Description/>
     </div>
   )
 }

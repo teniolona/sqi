@@ -37,3 +37,49 @@
   }
 }
 */
+/* Global */
+.color1 {
+  color: #081b87;
+}
+.color2 {
+  color: rgb(26, 0, 82);
+}
+/* Navbar */
+.startnav {
+  margin-top: 10px;
+}
+.mydiv {
+  border-radius: 10px;
+  padding: 12px;
+}
+.parentdrop .unseendrop, .parentdrop .unseendrop a {
+  display: none;
+}
+.parentdrop {
+  padding-bottom: 22px;
+}
+.parentdrop:hover .unseendrop {
+  padding: 0.6em 0.5em;
+  display: block;
+  border-radius: 0px;
+  position: absolute;
+  z-index: 1;
+  top: 4rem;
+  border-top: 2px solid #081b87;
+  max-width: 235px;
+}
+.parentdrop:hover .unseendrop a {
+  display: block;
+}
+
+/* Frontpage */
+.newfont {
+  font-size: 17px;
+}
+.imgedit {
+  filter: contrast(120%);
+}
+.imgrad {
+  border-bottom-left-radius: 105px;
+  border-bottom-right-radius: 20px;
+}

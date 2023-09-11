@@ -12,7 +12,6 @@ code {
     monospace;
 }
 */
-.mydiv {
-  border-radius: 10px;
-  padding: 12px;
+.unseendrop {
+  display: none;
 }
